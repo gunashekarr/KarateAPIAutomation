@@ -1,8 +1,9 @@
 // https://gorest.co.in/
+https://www.dummy.restapiexample.com/
 Feature: GET Users Call
 
   Scenario: Get All the users
-    Given url 'https://dummy.restapiexample.com/api/v1/employees'
+    Given url baseUrl+'/api/v1/employees'
     When method GET
     Then status 200
     * print response
@@ -16,8 +17,8 @@ Feature: GET Users Call
     * match actualAge == 61
     * match actualSalary == 320800
     
-    Scenario: Get All the users
-    Given url 'https://dummy.restapiexample.com/api/v1/employee/2'
+    Scenario: Get user details of id equal to two
+    Given url baseUrl+'/api/v1/employee/2'
     When method GET
     Then status 200
     * print response
