@@ -9,7 +9,7 @@ env: env,
 myVarName: 'hello karate', 
 baseUrl: 'https://dummy.restapiexample.com',
 goRestBaseUrl: 'https://gorest.co.in',
-tokenID: '007526d9efdbc07e084ff7a6d4cfcc90588fbe20641c00faebf45a7f3b2eaf33'
+tokenID: '6b8f1aeb667a022f2433aee5ca89b9a9d641c252127bc61f2cf3a2789d016f60'
 }
 
 if (env == 'dev') { 

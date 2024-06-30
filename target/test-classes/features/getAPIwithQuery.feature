@@ -1,4 +1,4 @@
-Feature: GET Users Call
+Feature: GET Call
 
   Scenario: Get all the active users and assert the number of count
     * def query = {status:'active'}
